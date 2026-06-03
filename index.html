@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Epicare, epilepsi takibi için yapay zeka destekli akıllı saat ve mobil sağlık ekosistemidir."
+    />
+    <title>Epicare | AI Powered Epilepsy Care</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-noise" aria-hidden="true"></div>
+    <nav class="navbar" id="navbar" aria-label="Ana menü">
+      <a class="brand" href="#home" aria-label="Epicare ana sayfa">
+        <img src="assets/logo-transparent.png" alt="Epicare logosu" />
+        <span>Epicare</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Menüyü aç" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Ana Sayfa</a>
+        <a href="#watch">Akıllı Saat</a>
+        <a href="#app">Mobil Uygulama</a>
+        <a href="#workflow">Nasıl Çalışır</a>
+        <a href="#scenario">Güvenlik</a>
+        <a href="#technology">Teknoloji</a>
+        <a href="#team">Takım</a>
+        <a href="#contact">İletişim</a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-copy reveal">
+          <p class="eyebrow">by TRİMİND</p>
+          <h1>Epicare</h1>
+          <h2>Güvenli bir yaşam için akıllı bir dokunuş.</h2>
+          <p>
+            Epilepsi takibini saat, mobil uygulama ve yapay zeka ile daha anlaşılır hale
+            getiren akıllı sağlık sistemi.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#watch">Ürünü Keşfet</a>
+            <a class="btn secondary" href="#app">Demo İncele</a>
+          </div>
+        </div>
+
+        <div class="hero-stage reveal delay-1" id="heroStage">
+          <div class="stage-light"></div>
+          <img
+            class="watch-product"
+            src="assets/product-watch-transparent.png"
+            alt="Epicare akıllı saat"
+          />
+
+          <div class="phone-mockup float-soft" aria-label="Epicare mobil uygulama önizlemesi">
+            <div class="phone-speaker"></div>
+            <img class="phone-shot" src="assets/app-home.jpeg" alt="Epicare mobil uygulama ana ekranı" />
+          </div>
+
+          <article class="floating-card ai-card" data-depth="18">
+            <span>AI analiz</span>
+            <strong>Düşük risk</strong>
+            <div class="signal-bars"><i></i><i></i><i></i><i></i></div>
+          </article>
+          <article class="floating-card pulse-card" data-depth="26">
+            <span>Nabız</span>
+            <strong>76 bpm</strong>
+            <svg viewBox="0 0 120 42" aria-hidden="true">
+              <path d="M2 24 H22 L31 10 L43 36 L56 18 L67 24 H118" />
+            </svg>
+          </article>
+          <article class="floating-card gps-card" data-depth="14">
+            <span>GPS</span>
+            <strong>Konum bildirimi</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="watch-story" id="watch" data-watch-story>
+        <div class="watch-story-head reveal">
+          <p class="eyebrow">Akıllı saat</p>
+          <h2>Bilekte başlayan güvenlik katmanı.</h2>
+          <p>Epicare Band, gün içindeki sinyalleri sessizce toplar ve riskli anları uygulamaya taşır.</p>
+        </div>
+
+        <div class="watch-story-grid">
+          <article class="watch-step reveal">
+            <span>01</span>
+            <h3>Gün boyu ölçüm</h3>
+            <p>Hareket, uyku, nabız ve çevresel veriler tek akışta izlenir.</p>
+          </article>
+          <article class="watch-step reveal delay-1">
+            <span>02</span>
+            <h3>Risk sinyali</h3>
+            <p>Olağan dışı durumlar uygulamaya ve AI analizine aktarılır.</p>
+          </article>
+          <article class="watch-step reveal delay-2">
+            <span>03</span>
+            <h3>Akıllı uyarı</h3>
+            <p>Yanıt alınamazsa yakınlara konum gider, çevredekilere sesli ilk yardım komutu verilir.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section app-section" id="app">
+        <div class="app-copy reveal">
+          <p class="eyebrow">Mobil uygulama</p>
+          <h2>Takip, uygulamada anlaşılır hale gelir.</h2>
+          <p>Cihaz durumu, sağlık verileri, AI asistanı ve acil durum akışı tek sade arayüzde.</p>
+          <div class="screen-tabs" role="tablist" aria-label="Uygulama ekranları">
+            <button class="active" data-app-screen="home">Ana ekran</button>
+            <button data-app-screen="health">Sağlık verileri</button>
+            <button data-app-screen="assistant">AI asistanı</button>
+            <button data-app-screen="alert">Nöbet alarmı</button>
+            <button data-app-screen="sound">Ses takibi</button>
+            <button data-app-screen="medicine">İlaç takibi</button>
+          </div>
+        </div>
+
+        <div class="demo-phone reveal delay-1" aria-live="polite">
+          <div class="phone-shell">
+            <div class="phone-speaker"></div>
+            <div class="demo-screen active" id="screen-home">
+              <img src="assets/app-home.jpeg" alt="Epicare ana ekranı" />
+            </div>
+            <div class="demo-screen" id="screen-health">
+              <img src="assets/app-health.jpeg" alt="Epicare sağlık verileri ekranı" />
+            </div>
+            <div class="demo-screen" id="screen-assistant">
+              <img src="assets/app-assistant.jpeg" alt="Epicare yapay zeka asistanı ekranı" />
+            </div>
+            <div class="demo-screen" id="screen-alert">
+              <img src="assets/app-alert.jpeg" alt="Epicare nöbet alarmı ekranı" />
+            </div>
+            <div class="demo-screen" id="screen-sound">
+              <img src="assets/app-sound.jpeg" alt="Epicare ses seviyesi takibi ekranı" />
+            </div>
+            <div class="demo-screen" id="screen-medicine">
+              <img src="assets/app-medicine.jpeg" alt="Epicare ilaç takibi ekranı" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section workflow" id="workflow">
+        <div class="section-head centered reveal">
+          <p class="eyebrow">Nasıl çalışır?</p>
+          <h2>Saat veriyi toplar. Uygulama gösterir. AI riski yorumlar.</h2>
+        </div>
+        <div class="flow-map reveal">
+          <div class="flow-step"><span>01</span><strong>Sensörler</strong></div>
+          <div class="flow-step"><span>02</span><strong>Akıllı Saat</strong></div>
+          <div class="flow-step"><span>03</span><strong>Mobil Uygulama</strong></div>
+          <div class="flow-step"><span>04</span><strong>Kişisel AI</strong></div>
+          <div class="flow-step"><span>05</span><strong>Risk Kontrolü</strong></div>
+          <div class="flow-step"><span>06</span><strong>Acil Bildirim</strong></div>
+        </div>
+      </section>
+
+      <section class="section scenario" id="scenario">
+        <div class="scenario-grid">
+          <article class="scenario-card reveal">
+            <span>01</span>
+            <h3>Risk algılanır</h3>
+            <p>Sensör verileri olağan dışı bir durumu işaret eder.</p>
+          </article>
+          <article class="scenario-card reveal delay-1">
+            <span>02</span>
+            <h3>Kullanıcı uyarılır</h3>
+            <p>Uygulama ve saat kısa bir doğrulama süreci başlatır.</p>
+          </article>
+          <article class="scenario-card active reveal delay-2">
+            <span>03</span>
+            <h3>Yanıt yoksa yardım başlar</h3>
+            <p>Yakınlara konum gider, bileklik çevredekilere sesli ilk yardım komutu verir.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section technology" id="technology">
+        <div class="tech-layout">
+          <div class="tech-grid">
+            <article class="tech-card reveal">
+              <span class="tech-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 3v18M5 8c3 0 3 8 6 8s3-8 8-8" /></svg>
+              </span>
+              <h3>Kişisel analiz</h3>
+              <p>Kullanıcı verilerini kendi rutinine göre yorumlar.</p>
+            </article>
+            <article class="tech-card reveal">
+              <span class="tech-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M6 6h.01M18 6h.01M12 12h.01M6 18h.01M18 18h.01" /><path d="M6 6l6 6 6-6M6 18l6-6 6 6" /></svg>
+              </span>
+              <h3>Çoklu sensör</h3>
+              <p>Hareket, uyku, ses ve çevresel sinyalleri birlikte okur.</p>
+            </article>
+            <article class="tech-card reveal">
+              <span class="tech-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 21s7-5.2 7-11a7 7 0 0 0-14 0c0 5.8 7 11 7 11Z" /><path d="M12 10.5h.01" /></svg>
+              </span>
+              <h3>Konum bildirimi</h3>
+              <p>Acil durumda yakınlara doğru lokasyon gönderir.</p>
+            </article>
+            <article class="tech-card reveal">
+              <span class="tech-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 3 4 8v6c0 4 3.2 6.5 8 8 4.8-1.5 8-4 8-8V8l-8-5Z" /><path d="M12 8v5M12 17h.01" /></svg>
+              </span>
+              <h3>Acil akış</h3>
+              <p>Uyarı, doğrulama ve bildirim adımlarını yönetir.</p>
+            </article>
+            <article class="tech-card reveal">
+              <span class="tech-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M5 10v4h3l5 4V6L8 10H5Z" /><path d="M16 9c1 1 1 5 0 6M19 7c2 2.4 2 7.6 0 10" /></svg>
+              </span>
+              <h3>Sesli ilk yardım</h3>
+              <p>Nöbet anında çevredekilere ne yapmaları gerektiğini sesli anlatır.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section team" id="team">
+        <div class="section-head centered reveal">
+          <p class="eyebrow">Takım</p>
+          <h2>Epicare’i geliştiren ekip.</h2>
+        </div>
+        <div class="team-grid">
+          <article class="team-card reveal">
+            <span class="role-chip">Donanım</span>
+            <h3>Şüheda Yanık</h3>
+            <p>Takım Kaptanı & Donanım Geliştirme</p>
+          </article>
+          <article class="team-card reveal delay-1">
+            <span class="role-chip">Yazılım</span>
+            <h3>Rüveyda Kara</h3>
+            <p>Yazılım Geliştirme</p>
+          </article>
+          <article class="team-card reveal delay-2">
+            <span class="role-chip">Tasarım</span>
+            <h3>Elanur Nadir</h3>
+            <p>Tasarım & Kullanıcı Deneyimi</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="contact-panel reveal">
+          <div>
+            <p class="eyebrow">İletişim</p>
+            <h2>Epicare ile tanışın.</h2>
+            <p>İş birliği, tanıtım ve ürün hakkında konuşmak için bize ulaşabilirsiniz.</p>
+          </div>
+          <div class="contact-stack">
+            <a href="https://www.instagram.com/trimind3" target="_blank" rel="noreferrer">
+              <span>Instagram</span>
+              <strong>trimind3</strong>
+            </a>
+            <a href="https://www.linkedin.com/in/trimind-teknoloji-011557404" target="_blank" rel="noreferrer">
+              <span>LinkedIn</span>
+              <strong>Trimind Teknoloji</strong>
+            </a>
+            <a href="mailto:trimindteknoloji3@gmail.com">
+              <span>E-posta</span>
+              <strong>trimindteknoloji3@gmail.com</strong>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <strong>Epicare</strong>
+      <span>Güvenli bir yaşam için akıllı bir dokunuş.</span>
+      <span>Instagram: trimind3 · LinkedIn: Trimind Teknoloji · trimindteknoloji3@gmail.com</span>
+      <small>© 2026 Trimind Teknoloji. Tüm hakları saklıdır.</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
