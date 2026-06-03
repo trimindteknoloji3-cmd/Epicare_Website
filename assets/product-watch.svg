@@ -1,0 +1,33 @@
+<svg width="760" height="760" viewBox="0 0 760 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="760" fill="white" fill-opacity="0"/>
+  <ellipse cx="380" cy="668" rx="230" ry="38" fill="#101527" fill-opacity="0.13"/>
+  <path d="M262 136C267 80 302 48 380 48C458 48 493 80 498 136L483 188H277L262 136Z" fill="#171923"/>
+  <path d="M277 572H483L498 624C493 680 458 712 380 712C302 712 267 680 262 624L277 572Z" fill="#171923"/>
+  <rect x="194" y="132" width="412" height="496" rx="92" fill="#20232D"/>
+  <rect x="216" y="154" width="368" height="452" rx="74" fill="url(#case)"/>
+  <rect x="246" y="184" width="308" height="392" rx="48" fill="#070910"/>
+  <rect x="612" y="300" width="28" height="112" rx="14" fill="#232631"/>
+  <circle cx="626" cy="256" r="28" fill="#242733"/>
+  <circle cx="626" cy="256" r="16" fill="#13151C"/>
+  <path d="M344 258C321 258 304 271 298 291C276 292 258 309 256 332C238 340 226 357 226 379C226 388 229 397 233 404C226 414 222 425 222 438C222 466 243 488 271 490C276 520 299 541 329 541C353 541 372 526 377 503V342C370 328 353 322 337 331C328 336 319 338 309 334C297 329 289 318 287 305" stroke="url(#brain)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M302 293C304 308 313 317 326 318" stroke="url(#brain)" stroke-width="12" stroke-linecap="round"/>
+  <path d="M259 394C273 414 292 419 315 409" stroke="url(#brain)" stroke-width="12" stroke-linecap="round"/>
+  <path d="M400 260C440 260 491 293 498 358C507 441 447 496 400 543V260Z" stroke="url(#heart)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M432 292C469 296 487 324 485 364C482 400 464 430 438 457" stroke="url(#heart)" stroke-width="9" stroke-linecap="round"/>
+  <text x="380" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" fill="white" opacity="0.94">epicare</text>
+  <defs>
+    <linearGradient id="case" x1="236" y1="153" x2="568" y2="609" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#454956"/>
+      <stop offset="0.42" stop-color="#11131A"/>
+      <stop offset="1" stop-color="#30343F"/>
+    </linearGradient>
+    <linearGradient id="brain" x1="221" y1="276" x2="383" y2="516" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#13B7FF"/>
+      <stop offset="1" stop-color="#2764F5"/>
+    </linearGradient>
+    <linearGradient id="heart" x1="398" y1="264" x2="512" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9D6BFF"/>
+      <stop offset="1" stop-color="#6D5DFC"/>
+    </linearGradient>
+  </defs>
+</svg>

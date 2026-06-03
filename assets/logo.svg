@@ -1,0 +1,20 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="96" fill="white"/>
+  <path d="M236 91C205 91 182 109 173 136C143 137 119 160 116 191C91 202 75 225 75 254C75 266 78 277 84 287C74 300 69 315 69 332C69 370 98 400 136 403C143 444 174 472 214 472C246 472 272 452 278 421V276C268 257 245 249 223 261C211 268 198 270 185 265C169 258 158 244 155 227" stroke="url(#brain)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M179 142C181 163 194 175 211 177" stroke="url(#brain)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M139 197C119 200 105 215 104 236" stroke="url(#brain)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M124 295C143 322 168 329 199 315" stroke="url(#brain)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M142 401C136 371 145 347 172 334" stroke="url(#brain)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M309 94C362 94 430 138 439 224C451 334 372 407 309 469V94Z" stroke="url(#heart)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M348 141C397 146 421 184 418 236C414 284 391 324 357 360" stroke="url(#heart)" stroke-width="12" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="brain" x1="66" y1="115" x2="286" y2="437" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12B7FF"/>
+      <stop offset="1" stop-color="#2764F5"/>
+    </linearGradient>
+    <linearGradient id="heart" x1="302" y1="101" x2="454" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9D6BFF"/>
+      <stop offset="1" stop-color="#6D5DFC"/>
+    </linearGradient>
+  </defs>
+</svg>
